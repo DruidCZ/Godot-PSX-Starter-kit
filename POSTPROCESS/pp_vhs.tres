@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://SHADERS/shader_pack/NTSC.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/blur_amount = 3.0
+shader_param/signal_quality = 0.0
+shader_param/bottom_strenth = 3.0
